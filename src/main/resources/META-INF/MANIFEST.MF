@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: ai.github.lucas_sousa_rocha.produtosapi.ProdutosApiApplicati
+ on
+
