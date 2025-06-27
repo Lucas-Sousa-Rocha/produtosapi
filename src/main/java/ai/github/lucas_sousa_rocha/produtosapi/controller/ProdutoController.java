@@ -45,7 +45,7 @@ public class ProdutoController {
     // REALIZA A BUSCA POR NOME POR MEIO DO SELECT LIKE
     @GetMapping(path="listar-pornome/{nome}")
     public List<Produto> buscarProdutosPorNome(@PathVariable("nome") String nome) {
-    return produtoRepository.bucarPorNome(nome);
+    return produtoRepository.buscarPorNome(nome);
     }
 
     // EXCLUI O PRODUTO COM BASE NO ID
